@@ -24,7 +24,7 @@
 #include <stdint.h>
 #elif ARDUINO >= 100
 #include "Arduino.h"
-#include "Print.h"
+#include "api/Print.h"
 #else
 #include "WProgram.h"
 #endif
